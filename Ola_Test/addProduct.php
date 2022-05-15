@@ -1,4 +1,4 @@
-
+<?php session_start();  ?>
 <!DOCTYPE html>
 <html lang="en">
 <meta charset="utf-8">
@@ -22,7 +22,7 @@
 
 <body >
    
-<?php session_start(); ?>
+
       
     <!-- Navbar --> 
     <header >

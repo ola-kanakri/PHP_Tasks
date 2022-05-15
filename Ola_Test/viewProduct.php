@@ -1,4 +1,4 @@
-
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="en">
 <meta charset="utf-8">
@@ -22,7 +22,7 @@
 
 <body >
    
-<?php session_start(); ?>
+
       
     <!-- Navbar --> 
     <header >
@@ -95,6 +95,9 @@
 
 
     }
+
+    else
+    {echo "<div class='container' id='error'><h2>There are no products.</h2></div>" ;}
 ?>
 </div> 
 </div>
